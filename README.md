@@ -41,8 +41,6 @@ pip install -r requirements.txt
 
 ## Usage 🚀
 
-<<<<<<< HEAD
-=======
 ### Database Setup
 
 Execute the SQL commands in `site_pages.sql` to set up your Supabase database:
@@ -71,7 +69,6 @@ CREATE TABLE site_pages (
 );
 ```
 
->>>>>>> d4b2298 (Initial commit: LangGraph Expert Assistant)
 ### Documentation Crawler
 
 To update the knowledge base with the latest documentation:
@@ -80,8 +77,6 @@ To update the knowledge base with the latest documentation:
 python crawl_langgraph_docs.py
 ```
 
-<<<<<<< HEAD
-=======
 This will:
 - Fetch URLs from the LangGraph documentation sitemap
 - Crawl each page and split into chunks
@@ -96,22 +91,12 @@ The crawler uses intelligent chunking with the following features:
 - Respects paragraph boundaries
 - Maintains sentence coherence
 
->>>>>>> d4b2298 (Initial commit: LangGraph Expert Assistant)
 ### User Interface
 
 To start the chat interface:
 
 ```bash
 streamlit run streamlit_ui.py
-<<<<<<< HEAD
-```
-
-## Project Structure 📁
-
-- `crawl_langgraph_docs.py`: Crawler for LangGraph documentation
-- `streamlit_ui.py`: Streamlit user interface
-- `langgraph_expert.py`: Main assistant logic
-=======
 ```     
 
 ## Project Structure 📁
@@ -133,7 +118,6 @@ langgraph-expert/
 - `streamlit_ui.py`: Provides the chat interface and response streaming
 - `graph.py`: Defines the LangGraph workflow and agent interactions
 - `site_pages.sql`: Contains all database setup commands
->>>>>>> d4b2298 (Initial commit: LangGraph Expert Assistant)
 
 ## Technical Features 🔍
 
@@ -149,8 +133,4 @@ Contributions are welcome. Please open an issue to discuss major changes before 
 
 ## License 📄
 
-<<<<<<< HEAD
 MIT 
-=======
-MIT 
->>>>>>> d4b2298 (Initial commit: LangGraph Expert Assistant)
