@@ -4,10 +4,11 @@ This project is an expert assistant for LangGraph that combines a web crawler fo
 
 ## Main Features 🌟
 
-- **Documentation Crawler**: Automatically crawls and processes official LangGraph documentation
+- **Documentation Crawler**: Automatically crawls and processes official LangGraph documentation using crawl4ai
 - **RAG (Retrieval Augmented Generation)**: Uses embeddings and semantic search to provide accurate answers
 - **Streamlit User Interface**: Intuitive chat interface to interact with the assistant
 - **Asynchronous Processing**: Efficient implementation using asyncio for concurrent operations
+- **Powered by crawl4ai**: Utilizes the crawl4ai library for efficient and reliable web crawling
 
 ## Requirements 📋
 
@@ -78,7 +79,7 @@ python crawl_langgraph_docs.py
 ```
 
 This will:
-- Fetch URLs from the LangGraph documentation sitemap
+- Use crawl4ai to efficiently fetch and process URLs from the LangGraph documentation sitemap
 - Crawl each page and split into chunks
 - Generate embeddings using OpenAI's text-embedding-3-small model
 - Store the processed content in Supabase
